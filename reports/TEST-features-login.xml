@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite failures="0" errors="0" skipped="0" tests="1" time="13.349754" name="Login">
+<testcase classname="Login" name="Login with valid credentials" time="13.349754">
+  <system-out>
+    <![CDATA["PASSED ==> Login => Login with valid credentials"
+]]>
+  </system-out>
+  <system-err>
+    <![CDATA[]]>
+  </system-err>
+</testcase>
+</testsuite>
