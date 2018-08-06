@@ -32,9 +32,9 @@ end
 
 # Setup for Capybara
 Capybara.configure do |config|
-  config.run_server = false
-  # config.server_host = '0.0.0.0'
-  # config.server_port = 4723
+  config.run_server = true
+  config.server_host = '0.0.0.0'
+  config.server_port = 4723
   config.default_max_wait_time = (ENV['MAX_WAIT_TIME'] || 60).to_i
   config.match = :first
   config.ignore_hidden_elements = false
