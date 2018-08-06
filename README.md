@@ -18,7 +18,12 @@ Start `appium` server
 appium
 ```
 
-Then create new consult window. Start automated testing by start cucumber
+Then create new consult window. Install bundle
+```
+bundle install
+```
+
+Start automated testing by start cucumber
 ```
 cucumber
 ```
